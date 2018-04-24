@@ -1,9 +1,10 @@
-import tensorflow as tf
+﻿import tensorflow as tf
 import numpy as np
+
 
 # 使用numpy生成100个随机点
 x_data = np.random.rand(100)
-# 这是一条 y = kx + b 的直线
+# 这是一条 y = kx + b 的直线条
 y_data = x_data*0.1 + 0.2
 
 # 构造一个线性模型:k = 0，b = 0  (k b 值是任意的，偏差越大，需要训练的次数就越多)

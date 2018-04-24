@@ -1,4 +1,5 @@
-import tensorflow as tf
+﻿import tensorflow as tf
+
 
 # 创建一个变量初始化为0
 state = tf.Variable(0, name='count')
